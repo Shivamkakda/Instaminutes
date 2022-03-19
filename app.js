@@ -51,7 +51,7 @@ setTimeout(()=>{ //setTimeout with the delay of the length of the name
     const job = schedule.scheduleJob(item.dateTime, function(){   // scheduling the job at the given time by using scheduleJob of nodejs schedular which is take care of the date and time in corn format
         console.log("Hello Dear " + item.text +" Your Appointment on " + item.dateTime);
       })
-    console.log("Scheduling The Job at "+item.text+" at " + item.dateTime) 
+    console.log("Scheduling The Job of "+item.text+" at " + item.dateTime) 
 },i*item.text.length*1000)
 }
 

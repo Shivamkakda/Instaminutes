@@ -54,5 +54,3 @@ setTimeout(()=>{ //setTimeout with the delay of the length of the name
     console.log("Scheduling The Job of "+item.text+" at " + item.dateTime) 
 },i*item.text.length*1000)
 }
-
-
